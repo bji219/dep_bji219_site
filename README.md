@@ -1,8 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to my Design Portfolio
 
 You can use the [editor on GitHub](https://github.com/bji219/bji219.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Overview
+My name is Brendan- I am a curiosity-driven lifelong learner who is interested in the intersection of engineering and music (like my [Arduino MIDI Pedal](https://bji219.github.io/Arduino-MIDI-Pedal/) for my Korg SV-2) among other projects. 
+
+
 
 ### Markdown
 
