@@ -6,11 +6,8 @@ permalink: /about/
 
 ![Headshot](/_site/assets/ProfessionalPicture.jpeg)
 
-<img src="http://bji219.github.io/_site/assets/ProfessionalPicture.jpeg" >  
+![img]({{ BASE_PATH }}/_site/assets/ProfessionalPicture.jpeg)
 
-![headshot]({{"/_site/assets/ProfessionalPicture.jpeg" | relative_url }} )
-
-![headshot](https://github.com/bji219/bji219.github.io/_site/assets/ProfessionalPicture.jpeg)
 
 My name is Brendan Inglis, and I am a Mechanical Engineeing PhD student at Lehigh University.
 
