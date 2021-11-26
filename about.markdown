@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Headshot](/assets/Images/ProfessionalPicture.jpeg)
 
-My name is Brendan Inglis, and I am a Mechanical Engineeing PhD student at Lehigh University.
+My name is Brendan Inglis, and I am a Mechanical Engineering PhD student at Lehigh University.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
