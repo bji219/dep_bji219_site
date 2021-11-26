@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Headshot](/_site/assets/ProfessionalPicture.jpeg)
 
-![img]({{ BASE_PATH }}/_site/assets/ProfessionalPicture.jpeg)
+![img]({{ site.url }}/_site/assets/ProfessionalPicture.jpeg)
 
 
 My name is Brendan Inglis, and I am a Mechanical Engineeing PhD student at Lehigh University.
