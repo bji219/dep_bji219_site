@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   about my hands-on projects and also details about
   my research at Lehigh University.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bji219.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: InglisBrendan
 github_username:  bji219
 
@@ -34,7 +34,7 @@ theme: minima # <- original theme. Try figs, add headshot
 plugins:
   - jekyll-feed
 
-BASE_PATH: /bji219.github.io
+# BASE_PATH: /bji219.github.io
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
