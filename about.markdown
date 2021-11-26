@@ -4,9 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Headshot](/_site/assets/ProfessionalPicture.jpeg)
-
-![Pic1]({{ "/_site/assets/ProfessionalPicture.jpeg" | absolute_url }})
+![Headshot](/assets/Images/ProfessionalPicture.jpeg)
 
 My name is Brendan Inglis, and I am a Mechanical Engineeing PhD student at Lehigh University.
 
