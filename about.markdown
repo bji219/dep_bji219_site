@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Image](/bji219.github.io/_site/assets/ProfessionalPicture.jpeg)
+![Image](/_site/assets/ProfessionalPicture.jpeg)
 
 My name is Brendan Inglis, and I am a Mechanical Engineeing PhD student at Lehigh University.
 
