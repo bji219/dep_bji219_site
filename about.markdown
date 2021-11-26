@@ -8,6 +8,8 @@ permalink: /about/
 
 <img src="http://bji219.github.io/_site/assets/ProfessionalPicture.jpeg" >  
 
+![headshot]({{"/_site/assets/ProfessionalPicture.jpeg" | relative_url }} )
+
 My name is Brendan Inglis, and I am a Mechanical Engineeing PhD student at Lehigh University.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
