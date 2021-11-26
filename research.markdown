@@ -1,5 +1,6 @@
 ---
 layout: "page"
+title: Research
 permalink: "/Research/"
 ---
 ### About My Research at Lehigh University
