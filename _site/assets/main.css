@@ -116,9 +116,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-meta { font-size: 14px; color: #828282; }
 
-.post-link { display: inline-block; font-size: 24px; }
+.post-link { display: inline-block; font-size: 24px; padding-right: 50px}
 
-.post-thumbnail { padding: 25px 50px 75px 100px; vertical-align: middle; }
+/** .post-thumbnail { padding: 25px 50px 75px 100px; vertical-align: middle; } */
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
