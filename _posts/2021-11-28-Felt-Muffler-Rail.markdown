@@ -30,5 +30,9 @@ Even with a muffler rail made out of cardboard and staples, I think the resultin
 [no_muffle](/assets/Audio/no_muffle.mov)
 #### With muffler rail: 
 [muffle](/assets/Audio/muffle.mov)
+https://github.com/bji219/bji219.github.io/blob/gh-pages/assets/Audio/muffle.mov
+
+https://github.com/bji219/bji219.github.io/blob/gh-pages/assets/Audio/muffle.mp4
+
 
 ### Updates to come soon! 
