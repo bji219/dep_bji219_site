@@ -34,7 +34,17 @@ theme: minima # <- original theme. Try figs, add headshot
 plugins:
   - jekyll-feed
 
-# BASE_PATH: /bji219.github.io
+# Create default "Front Matter" 
+defaults:
+-
+  scope: 
+    path: ""
+    type: "post"
+  values:
+    layout: "post"
+    # values
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
