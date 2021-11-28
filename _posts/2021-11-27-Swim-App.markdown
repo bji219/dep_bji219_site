@@ -1,0 +1,9 @@
+---
+title: "Swim iOS App"
+date: 2021-05-03 15:33:33 -0500
+permalink: "/Swim_App/"
+---
+
+### Swimming Pace Calculator iOS App
+
+Check out the full project [here](https://github.com/bji219/PaceCalc). It is a private repository so check out the included screenshots and code snippets. 
