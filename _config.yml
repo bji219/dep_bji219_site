@@ -46,7 +46,7 @@ defaults:
   values:
     layout: "post"
     author: Brendan Inglis
-    image: assets/Images/Assembly_Img.PNG # remove later, for testing thumbnails only
+    # image: assets/Images/Assembly_Img.PNG # remove later, for testing thumbnails only
     excerpt_separator: "<!--more-->"
     excerpt: "Your Excerpt Here!"
     # values
