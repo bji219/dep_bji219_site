@@ -30,7 +30,7 @@ twitter_username: InglisBrendan
 github_username:  bji219
 
 # Build settings
-theme: slate #minima # <- original theme. Try figs, add headshot
+theme: minima # <- original theme. Try figs, add headshot
 plugins:
   - jekyll-feed
 
