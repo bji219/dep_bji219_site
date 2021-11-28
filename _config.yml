@@ -31,6 +31,7 @@ github_username:  bji219
 
 # Build settings
 theme: minima # <- original theme. Try figs, add headshot
+show_excerpts: true
 plugins:
   - jekyll-feed
   #- jekyll-theme-minimal
