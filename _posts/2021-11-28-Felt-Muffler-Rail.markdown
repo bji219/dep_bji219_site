@@ -27,12 +27,10 @@ Now that I have the concept hashed out, I need to purchase sturdier materials. F
 Even with a muffler rail made out of cardboard and staples, I think the resulting sound is pretty cool. Making the design more permanent with wider felt and sturdier construction will help remove the mechanical noise from the hammer strikes. 
 
 #### No muffler rail:
-[no_muffle](/assets/Audio/no_muffle.mov)
-#### With muffler rail: 
-[muffle](/assets/Audio/muffle.mov)
-https://github.com/bji219/bji219.github.io/blob/gh-pages/assets/Audio/muffle.mov
+https://user-images.githubusercontent.com/79180847/143784150-4ce3a092-80c3-4ad9-ba86-a89f6bf9d8d2.mov
 
-https://github.com/bji219/bji219.github.io/blob/gh-pages/assets/Audio/muffle.mp4
+#### With muffler rail: 
+https://user-images.githubusercontent.com/79180847/143784155-d8745ee7-618d-4fb7-aba7-cf00abff93ee.mov
 
 
 ### Updates to come soon! 
