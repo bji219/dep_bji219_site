@@ -26,6 +26,7 @@ layout: default
       {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -34,6 +35,7 @@ layout: default
         {%- if post.image -%}
         <a class="figure" href="{{ post.url | relative_url }}" ><img src="{{ post.image }}" alt="" width="50" height="50" />
         {%- endif -%}
+          </span>
         
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
