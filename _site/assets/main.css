@@ -118,7 +118,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-link { display: inline-block; font-size: 24px; }
 
-.post-thumbnail { display: inline-block; margin-left: 30px; }
+.post-thumbnail { display: block; margin-left: 30px; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
