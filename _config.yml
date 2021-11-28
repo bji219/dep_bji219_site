@@ -44,6 +44,7 @@ defaults:
   values:
     layout: "post"
     author: Brendan Inglis
+    image: assets/Images/Assembly_Img.PNG # remove later, for testing thumbnails only
     # values
 
 
