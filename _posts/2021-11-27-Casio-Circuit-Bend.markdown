@@ -21,20 +21,18 @@ I opened up the PT-100, and despite some old dust and cobwebs getting in the way
 
 ![open](/assets/Images/circtuit_far.jpg)
 
+
 The electrical tape and criss-crossing wires aren't the most obvious to decipher, so here is a little circuit diagram that I made:
 
 
+![circuitdiagram](/assets/Images/diagram_circuit.png)
 
 ### BOM
 - Copper wire from old Christmas lights
-- [Quarter-inch female socket](https://www.digikey.com/en/products/detail/switchcraft-inc/112AX/1217815)
+- [Quarter-inch socket with switch](https://www.digikey.com/en/products/detail/switchcraft-inc/112AX/1217815) from Digi-Key
 - Solder & soldering iron
 - Can-do attitude
 
 ### How does it sound? 
 I recorded a short cover of one of [Vulfpeck's](https://vulfpeck.com/) most popular songs ["Dean Town"](https://www.youtube.com/watch?v=rhxQoDlt2AU) using the PT-100 for the bassline and overdubbing some other keyboards and such. I think it was pretty cool! I have also used the keyboard with an amp, and the lo-fi patches come out nice and gritty with some overdrive. Check out the video [here](https://www.instagram.com/p/CEvLcTAB-RQ/).
-
-
-
-
 
