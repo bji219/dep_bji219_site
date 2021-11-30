@@ -34,5 +34,5 @@ The electrical tape and criss-crossing wires aren't the most obvious to decipher
 - Can-do attitude
 
 ### How does it sound? 
-I recorded a short cover of one of [Vulfpeck's](https://vulfpeck.com/) most popular songs ["Dean Town"](https://www.youtube.com/watch?v=rhxQoDlt2AU) using the PT-100 for the bassline and overdubbing some other keyboards and such. I think it was pretty cool! I have also used the keyboard with an amp, and the lo-fi patches come out nice and gritty with some overdrive. Check out the video [here](https://www.instagram.com/p/CEvLcTAB-RQ/).
+I recorded a short cover of one of [Vulfpeck's](https://vulfpeck.com/) most popular songs ["Dean Town"](https://www.youtube.com/watch?v=rhxQoDlt2AU) using the PT-100 for the bassline and overdubbing some other keyboards and such. I used the quarter-inch jack to port the audio from the PT-100 to my audio interface, which I would not have been able to do otherwise. I think this project went well, and the result is pretty cool! I have also used the keyboard with an amp, and the lo-fi patches come out nice and gritty with some overdrive. Check out the video [here](https://www.instagram.com/p/CEvLcTAB-RQ/).
 
