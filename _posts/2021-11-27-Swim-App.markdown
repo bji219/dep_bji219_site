@@ -189,6 +189,8 @@ Check out the gif below of the working app below:
 
 ![gif](/assets/Video/RPReplay_Final1638339019.gif)
 
+<img src="/assets/Video/RPReplay_Final1638339019.gif" width="250" height="auto"/>
+
 
 Find the full project [here](https://github.com/bji219/PaceCalc) (It is a private repository so check out the included screenshots and code snippets). 
 
