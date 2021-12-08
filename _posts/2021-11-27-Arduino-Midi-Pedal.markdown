@@ -3,6 +3,8 @@ title: "Arduino MIDI Pedal"
 date: 2021-03-03 15:33:33 -0500
 permalink: "/ArduinoMidiPedal/"
 author: Brendan Inglis
+# image: 
+# excerpt:
 ---
 
 ### Arduino Midi Pedal
