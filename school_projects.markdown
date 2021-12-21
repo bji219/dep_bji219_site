@@ -53,9 +53,10 @@ end
 ```
 
 The roots that were returned were mapped to the real roots of the higher-order polynomial and were contour-plotted in Matlab (a few interesting results are displayed below): 
-![flower](/assets/Images/FlowerRoots.JPG)
 
-![heart](/assets/Images/HeartRoots.JPG)
+<img src="/assets/Images/FlowerRoots.JPG" width="500" height="auto"/>
+
+<img src="/assets/Images/HeartRoots.JPG" width="500" height="auto"/>
 
 
 ### Double-Pendulum 
@@ -146,8 +147,20 @@ The final result:
 
 ### Balsawood Wing Design
 #### Fall 2021
-< insert blurb about MECH 450 class here > 
+This Fall I took a class in Advanced Strength of Materials. Throughout the course we learned about calculating principle stresses and strains and transforming them in 2D & 3D, Castigliano's Energy method for solving statically indeterminate beam problems, shear flow in multi-cell thing wall beams, calculating shear centers, and more. 
+The final project for the class involved designing and building a swept-forward balsawood airfoil. First, we did a number of finite element simulations in ANSYS mechanical to numerically estimate the shear center of the airfoil. [Swept-forward wings](https://en.wikipedia.org/wiki/Forward-swept_wing) have maneuverability advantages but are more susceptible to torsional divergence (wings twisting off) which is why they are uncommon, and why knowing the shear center is important. 
 
+![cad_wing](/assets/Images/wing_cad.png) 
+
+![cad_wing_deformed](/assets/Images/wing_cad_deformed.png)
+
+After designing our wing and running the simulations, I exported the airfoil cross section as a DXF and laser-cut the pieces in Lehigh's maker lab. We constructed our airfoil using 50/50 epoxy, balsawood spars, and Monokote heat-shrink.
+
+<img src="/assets/Images/constructedwing.JPG" width="500" height="auto"/>
+
+After the epoxy cured, it was time for the competition day. Our wing design came in second place out of 10 teams based on strength to weight ratio (our stats: weight = 28.45 grams, speed = 81.17 mph). Watch our wing meet it's match in the wind tunnel below!
+
+<img src="/assets/Video/wind_tunnel.gif" width="500" height="auto"/>
 
 ### Nonlinear Cable Problem MATLAB Script
 #### Fall 2021
