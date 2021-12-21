@@ -141,7 +141,7 @@ epsilon = max(epsilon);
 ```
 
 The final result:
-<img src="/assets/Video/Double_PendulumVid.gif" width="250" height="auto"/>
+<img src="/assets/Video/Double_PendulumVid.gif" width="500" height="auto"/>
 
 ### Balsawood Wing Design
 #### Fall 2021
