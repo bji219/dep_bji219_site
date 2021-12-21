@@ -8,6 +8,7 @@ permalink: "/SchoolProjects/"
 This page serves as a place holder for adding projects that I have completed or worked on during my time at Lehigh university.
 
 ### Newton-Raphson Iteration Root Finder Art 
+#### Fall 2020 
 As a project in my Numerical Methods in Engineering course, we were tasked with creating fractal art using the Newton-Raphson root finding technique. We programmed the method in Matlab, and chose a higher-order polynomial in order to produce the interesting root behavior that we wanted to capture. 
 
 Newton Raphson iterative method:
@@ -58,6 +59,7 @@ The roots that were returned were mapped to the real roots of the higher-order p
 
 
 ### Double-Pendulum 
+#### Fall 2020
 The final for our Numerical Methods in Engineering course was to create a model of a double-pendulum system. We used the lengths of the pendulum arms, the mass of each ball, acceleration due to gravity, and the initial angle of the system as the inputs of an IVP (initial value problem) composed of the equations of motion for the pendulums (angular position and velocity etc.). Using the [Runge-Kutta-Fehlberg method](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta%E2%80%93Fehlberg_method), we solved the initial value problem using Matlab and recorded the incremental solutions over time to create an animation of the system. 
 
 Double-pendulum system of equations:
@@ -139,13 +141,14 @@ epsilon = max(epsilon);
 ```
 
 The final result:
-<img src="/assets/Video/Double_PendulumVid.mov" width="250" height="auto"/>
-
+<img src="/assets/Video/Double_PendulumVid.gif" width="250" height="auto"/>
 
 ### Balsawood Wing Design
+#### Fall 2021
 < insert blurb about MECH 450 class here > 
 
 
 ### Nonlinear Cable Problem MATLAB Script
+#### Fall 2021
 < insert blurb about MECH 450 final project here > 
 
