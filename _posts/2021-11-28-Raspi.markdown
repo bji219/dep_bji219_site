@@ -2,6 +2,7 @@
 title:  "Raspberry Pi Exploration"
 date:   2021-11-01 15:33:33 -0500
 permalink: "/Raspi/"
+excerpt: "Projects with Raspberry Pi"
 image: assets/Images/raspi.png
 ---
 
