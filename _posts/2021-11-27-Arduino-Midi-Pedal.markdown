@@ -16,7 +16,7 @@ https://www.instructables.com/Send-and-Receive-MIDI-with-Arduino/
 1. This project began as a way to address a gap in functionality in my Korg SV-2 keyboard. There is a footswitch pedal which can change the Leslie speaker effect when you are playing organ. However, there is no way to assign other FX to the pedal. For istance, I play EP more than organ so I like using the Tremolo effect. A-la Chick Corea it would be cool to turn the Tremolo on and off at different points as I am playing. I am sure other keyboards out there could have assignable effects pedals, but being an engineer I decided to solve this the hard way. 
 2. First, I found the MIDI parameters that I was interested in which could be edited in the SV-2 manual:
 
-# ![alt text](midi_img.png) <!-- https://github.com/bji219/Arduino-MIDI-Pedal/blob/main/ -->
+# ![alt text](/assets/Images/midi_img.png) <!-- https://github.com/bji219/Arduino-MIDI-Pedal/blob/main/ -->
 
 3. After some research these were converted into Hexidecimal messages which could be sent to the keyboard using the Arduino script.
 ```
@@ -69,7 +69,7 @@ void on() {
 
 7. I partially followed Amanda's instructables guide for the MIDI jack and wired up the circuit for my pedal:
 
-# ![alt text](circuit.png) <!-- https://github.com/bji219/Arduino-MIDI-Pedal/blob/main/ -->
+# ![alt text](/assets/Images/circuit.png) <!-- https://github.com/bji219/Arduino-MIDI-Pedal/blob/main/ -->
 
 - Not shown: The simple other part of the circuit connects to a 2-pin TS jack. One pin goes to an input on the Arduino and one pin goes to ground. Be sure to include a pull-down resistor to avoid noise (or just use Pin 13 on the Arduino which has a built in pull-down circuit). 
 - The TS jack is where the footswitch pedal connects to the Arduino. It sends the on/off signal to the program. 
@@ -77,7 +77,7 @@ void on() {
 7. Lastly, I designed a simple case and 3D printed it to house the hardware components.
 
 ## The Finished Product!
-# ![alt text](IMG_9829.JPG) <!-- https://github.com/bji219/Arduino-MIDI-Pedal/blob/main/ -->
+# ![alt text](/assets/Images/midi_pedal.jpeg) <!-- https://github.com/bji219/Arduino-MIDI-Pedal/blob/main/ -->
 
 ### Let me know if you have any improvement ideas!
 - This Arduino code is pretty hacky and basic, but it gets the job done. If there are other functions that you think would be cool to add or would work with a single On/Off footswitch, give it a try and let me know how it turns out!
@@ -89,4 +89,5 @@ void on() {
 - Abmient on/off FX is not working, could be the MIDI code/something internal to the SV-2
 - Pitch bend? 
 - DCgaptime affects the latency of the FX turning on or off. Obviously low latency is better for musicality
+
 Check out the full project [here](https://github.com/bji219/Arduino-MIDI-Pedal).
