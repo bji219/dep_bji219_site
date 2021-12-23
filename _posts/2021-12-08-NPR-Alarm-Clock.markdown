@@ -3,6 +3,7 @@ title: "NPR Alarm Clock"
 date: 2020-6-15 15:33:33 -0500
 permalink: "/NPR-Alarm-Clock/"
 # image: 
+theme: minima
 excerpt: "Starting my day with Morning Edition"
 ---
 
