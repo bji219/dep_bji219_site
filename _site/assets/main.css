@@ -112,9 +112,9 @@ table td { border: 1px solid #e8e8e8; }
 .post-list-heading { font-size: 28px; }
 
 .post-list { margin-left: 0; list-style: none; }
-.post-list > li { display: block; text-align: center; margin-bottom: 30px; }
+.post-list > li { display: inline-block; text-align: center; margin-bottom: 30px; }
 
-.post-meta { font-size: 14px; color: #828282; white-space: pre-line; }
+.post-meta { font-size: 14px; color: #828282; }
 
 .post-link { display: inline-block; font-size: 24px; }
 
