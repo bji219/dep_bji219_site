@@ -118,6 +118,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-link { display: inline-block; font-size: 24px; }
 
+.post-img-middle { position: relative; top: 50%; Transform: translateY (-50%); }
+
 /** .post-thumbnail { padding: 25px 50px 75px 100px; vertical-align: middle; } */
 
 /** Posts */
