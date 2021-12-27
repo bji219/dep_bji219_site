@@ -7,7 +7,7 @@ excerpt: "A quieter solution for practicing with family around!"
 ---
 
 # Creating a DIY Felt Muffler Rail
-As a piano player, it can be hard for me to keep my hands off the keys for long periods of time. When I received complaints from my family members about the loudness of the piano while they were working from home, I decided to take matters into my own hands and reduce the volume. Since my families parlor piano is acoustic, there is no volume control (see below). I decided to immitate the felt muffler rails that I have seen in upright pianos. 
+As a piano player, it can be hard for me to keep my hands off the keys for long periods of time. When I received complaints from my family members about the loudness of the piano while they were working from home, I decided to take matters into my own hands and reduce the volume. Since my family's parlor piano is acoustic, there is no volume control (see below). I decided to immitate the felt muffler rails that I have seen in upright pianos. 
 
 ![img](/assets/Images/parlorpiano.jpg)
 
