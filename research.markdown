@@ -26,10 +26,10 @@ From the raw scan, we need to separate out the regions of interest. We perform d
 
 ![ctwmask](/assets/Images/Research/ct_axial_mask.png)
 
-Once the mask is complete, we applied a quadratic tetrahedral mesh using another Materialise software, 3-Matic. The mesh is ported back into Mimics for material assigment, which is where the dual-zone model comes into play.
+Once the mask is complete, we applied a quadratic tetrahedral mesh using another Materialise software, 3-Matic. The mesh is ported back into Mimics for material assigment, where elements are assigned a Young's Modulus based on the underlying [Hounsfield Unit](https://en.wikipedia.org/wiki/Hounsfield_scale) from the CT scan. 
 
-Using Matlab, we created the dual-zone material 
-
+#### Dual-Zone Material Assigment
+The mesh material properties are exported as a text file and processed in Matlab with a custom function to implement the dual-zone material assignment. This dual-zone method includes a soft-callus modulus to assign a low stiffness to callus material and a density-cutoff to delineate the difference between the soft-callus material and cortical bone material. In order to determine the best combination of soft-callus modulus and density-cutoff, a large-scale optimization was performed on the Lehigh Unversity High Performance Computing center [(HPC)](https://lts.lehigh.edu/services/high-performance-computing-hpc-research-computing). The soft-callus region was assigned a Young's Modulus discretely from 0.5, 5, 50, and 500 MPa (mega-Pascals), and the density cutoff was swept from 0-1500 mgHA/cc in increments of 100. Using a bash script hosted on the HPC, each combination of modulus and cutoff were testsed as a simulation in ANSYS workbench. This lead to a total of 2,363 ANSYS siimulations (including refinement points). The optimized combinations of modulus and cutoff are shown below.
 
 *Optimized Material Assignment Laws:*
 
@@ -37,8 +37,23 @@ Using Matlab, we created the dual-zone material
 
 Interact with our [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Mtl_Opt_Vis/?_inputs_&mod=null&sidebarCollapsed=false&cutoff=0&sidebarItemExpanded=null) which gives hands-on experience with the dual-zone material method, and view the preprint of the paper [here](https://engrxiv.org/nxv9a/). The manuscript is currently being published with [Nature Scientific Reports](https://www.nature.com/srep/) and I will update the page once the work is available.
 
-### Response Surface Optimization
 
+### Response Surface Optimization
+Another focus of my research has been the investigation of different element types, and how they may effect the results of a virtual torsion test. In this study, I chose to compare a quadratic tetrahedral element (Tet-10) with a linear (Hex-8) and quadratic (Hex-20) hexahedral element. 
+
+*Example of a tetrahedral model* (replace with contralateral images)
+
+![](/assets/Images/Research/tet10example.png)
+
+*Example of a hexahedral model*
+
+![](/assets/Images/Research/hex20example.png)
+
+The element sizes are important when deciding on what element type to choose. For example the Tet-10 models look smooth, but this choice of element leads to partial-volume effects. This can be avoided by choosing a hexahedral element with a 1:1 pixel size to element size ratio (i.e. if the resolution of the CT scan is 0.4mm, then the hexahedral element size would be 0.4mm). With an element directly placed on top of a pixel, there is no possibility of partial volume effects. *include partial volume images for explanation here)*
+
+The purpose of this research was to determine an optimized combination of slope and density cutoff of a material assigment method that most closely replicates the biomechanical torsional rigidity performed in a benchtop experiment. To do this, a large number of virtual torsion simulations were run using the HPC on 20 virtual intact ovine tibia models. The data was then processed in Matlab.
+
+*Matlab code snippet:*
 ```matlab
 %% Fit the Hex20 data
 [f, gof] = fit([X_long,Y_long],hex20_rmse','poly44'); % use poly 44 instead?
@@ -81,19 +96,32 @@ scatter3(new_cutoff,new_slope,RMSE_Surface_Min,800,'.r'); % Plot dot of min on f
 hold off
 ```
 
-![](/assets/Images/Research/tet10example.png)
+A fourth-order surface fit was applied to the data to find the minimum difference between the virtual and real-life torsional rigidity. The results of the Tet-10 element and Hex-20 element are shown below. 
 
-![](/assets/Images/Research/hex20example.png)
+*Tet-10 Surface Optimization:*
 
 ![](/assets/Images/Research/tet10surf.png)
 
+*Hex-20 Surface Optimization:* 
+
 ![](/assets/Images/Research/hex20surf.png)
 
+Conclusions are pending on refinement points being run around the surface minima and statistical analysis.
 
 
 ### Bone Tensile Testing Lab
+My lab advisor and I were tasked with designing and running an extra credit lab for an undergraduate mechanics class for the Fall 2021 semester. My advisor came up with the idea to experimentally estimate the Young's Modulus of a [Sawbones](https://www.sawbones.com/) synthetic bone using a Zwick mechanical tester and some Matlab code. Over the summer, our undergraduate research interns wrote up the proposal for the lab:
 
 ![](/assets/Images/Research/lab_overview.PNG)
+
+*Image credit Alec Niemkiewicz and Tsipporah Thompson*
+
+The students would choose a cross section of "bone", take a picture of it with their smartphone, and then compress the sample in the Zwick. In order to determine the Young's Modulus, the force vs. displacement data was made available to the students after the lab session. 
+
+![](/assets/Images/Research/bonetensiletest.png)
+
+The students also needed to determine the cross-sectional area of their sample using the Matlab code that I wrote below. 
+
 
 ```matlab
 % =========================================================================
@@ -185,3 +213,10 @@ title ("4.  Close small holes");
 subplot (2, 3, 5), imshow (img_nohole);
 title ("5.  Larger holes Filled");
 ```
+The code output would look something like this:
+
+![](/assets/Images/Research/matlaboutput.png)
+
+![](/assets/Images/Research/matlaboutputdata.png)
+
+With these numbers in hand, the students would be able to estimate the Young's Modulus of their sample and execute the lab report for extra credit. 
