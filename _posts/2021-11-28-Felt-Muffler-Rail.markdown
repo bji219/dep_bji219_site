@@ -21,7 +21,7 @@ I stapled together the whole assembly and taped it into the rough position that 
 ![img](/assets/Images/prototypemuffle.jpg)
 
 ### Next Steps
-Now that I have the concept hashed out, I need to purchase sturdier materials. First, I will need wider felt strips so that the hammers to not contact the rail. I will also need either thin plywood or a metal bar to attach the felt to. Lastly, I will need to design a mechanism for raising and lowering the muffler rail. I will take inspiration from existing rails rather than reinvent the wheel. 
+Now that I have the concept hashed out, I need to purchase sturdier materials. First, I will need wider felt strips so that the hammers do not contact the rail. I will also need either thin plywood or a metal bar to attach the felt to. Lastly, I will need to design a mechanism for raising and lowering the muffler rail. I will take inspiration from existing rails rather than reinvent the wheel. 
 
 ### How does it sound? 
 Even with a muffler rail made out of cardboard and staples, I think the resulting sound is pretty cool. Making the design more permanent with wider felt and sturdier construction will help remove the mechanical noise from the hammer strikes. 
@@ -31,6 +31,7 @@ Even with a muffler rail made out of cardboard and staples, I think the resultin
 
 #### *With prototype muffler rail:*
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1168359265%3Fsecret_token%3Ds-v38FdonFDdb&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/brendostudio" title="Brendan Inglis" target="_blank" style="color: #cccccc; text-decoration: none;">Brendan Inglis</a> · <a href="https://soundcloud.com/brendostudio/muffle/s-v38FdonFDdb" title="Muffle" target="_blank" style="color: #cccccc; text-decoration: none;">Muffle</a></div>
+
 
 ### Update - 12/26/2021
 After determining that my plan would work, I needed sturdier supplies than cardboard. A quick Home Depot run later, and I was equipped with some sideboard trim wood, a small square-cross-section length of wood, and a larger supply of felt. The task at hand:
