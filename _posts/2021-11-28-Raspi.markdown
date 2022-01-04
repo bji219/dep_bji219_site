@@ -14,11 +14,10 @@ The primary reason I needed the Raspberry Pi was to fulfill a project idea that 
 
 Luckily, this was where the Raspberry Pi came in. My audio setup consists of a [Focusrite Scarlett 2i2](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2) audio interface which takes USB audio input from a laptop (or from musical instruments connected to the 1/4" ports) and sends the signal to the stereo MX8 monitors. I could use a laptop in place of a Raspberry Pi to send the audio signal. Thanks to dtcooper and his awesome GitHub repository [Raspotify](https://github.com/dtcooper/raspotify) I just needed to configure the settings on my Raspberry Pi correctly and implement his open source Spotify client for Raspberry Pi! 
 
-I am running Noobs on Raspberry Pi which is a Debian-based Linux operating system. Linux uses alsa to handle audio (Advanced Linux Sound Architecture). I configured the alsa.config file to use Scarlett 2i2 as the defualt audio sound card.
+I am running Noobs on Raspberry Pi which is a Debian-based Linux operating system. Linux uses alsa to handle audio (Advanced Linux Sound Architecture). I configured the alsa.config file to use Scarlett 2i2 as the defualt audio sound card (card 2).
 
-*Note to self - input code snippet when focusrite is connected- below is just a placeholder*
 ```
-aplay -l
+pi@raspberrypi:~/Documents $ aplay -l
 **** List of PLAYBACK Hardware Devices ****
 card 0: b1 [bcm2835 HDMI 1], device 0: bcm2835 HDMI 1 [bcm2835 HDMI 1]
   Subdevices: 4/4
@@ -32,9 +31,13 @@ card 1: Headphones [bcm2835 Headphones], device 0: bcm2835 Headphones [bcm2835 H
   Subdevice #1: subdevice #1
   Subdevice #2: subdevice #2
   Subdevice #3: subdevice #3
+card 2: USB [Scarlett 2i2 USB], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
   ```
   
-I changed these two lines in /usr/share/alsa/alsa.conf to set the interface to default: 
+I changed these two lines in /usr/share/alsa/alsa.conf to set the audio interface to default when it is connected: 
+
   ```
 defaults.ctl.card 2
 defaults.pcm.card 2
