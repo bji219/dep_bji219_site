@@ -35,7 +35,8 @@ The mesh material properties are exported as a text file and processed in Matlab
 
 ![mtl_plots](/assets/Images/Research/cutoffs_plot.png)
 
-Interact with our [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Mtl_Opt_Vis/?_inputs_&mod=null&sidebarCollapsed=false&cutoff=0&sidebarItemExpanded=null) which gives hands-on experience with the dual-zone material method, and view the preprint of the paper [here](https://engrxiv.org/nxv9a/). The manuscript is currently being published with [Nature Scientific Reports](https://www.nature.com/srep/) and I will update the page once the work is available.
+Interact with our [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Mtl_Opt_Vis/?_inputs_&mod=null&sidebarCollapsed=false&cutoff=0&sidebarItemExpanded=null) which gives hands-on experience with the dual-zone material method. [Read the manuscript](https://rdcu.be/cG21C), published on February 15, 2022 with [Nature Scientific Reports](https://www.nature.com/srep/).
+
 
 
 ### Response Surface Optimization
