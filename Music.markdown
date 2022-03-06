@@ -8,10 +8,9 @@ My mother had a musical background in piano and encouraged my siblings and I to 
 
 A strong influence in my revitalized dedication to the instrument came during my junior year in college when I met my mentor/piano teacher Tim Harisson. I took lessons for two years with Tim and joined the Lehigh Funk Band. After graduating college, I continued to study the aural tradition of Jazz and took a few lessons with pianist Cecelia Coleman before returning to Lehigh for my PhD. Upon returning to school I joined Mark Wade's jazz quartet, where I have played for about a year now. 
 
-
-*A recent Christmas gig in Philadelphia*            |  ''
-:-------------------------:|:-------------------------:
 ![](/assets/Images/Music/piano_frontview.JPG)  |   ![](/assets/Images/Music/Piano_playing.JPG) 
+:-------------------------:|:-------------------------:
+*A recent Christmas gig in Philadelphia*            |  ''
 
 # My Music
 Check out my [SoundCloud](https://soundcloud.com/brendostudio) for original music, song ideas/collaborations and more! This cover of Daft Punk's "Within" was one of my favorite recent projects that I produced. 
