@@ -51,6 +51,12 @@ defaults:
     # excerpt: "Your Excerpt Here!"
     # values
 
+# Order of home-page Pages
+header_pages:
+  - about.markdown
+  - research.markdown
+  - school_projects.markdown
+  - Music.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
