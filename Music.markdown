@@ -22,16 +22,16 @@ Check out my [SoundCloud](https://soundcloud.com/brendostudio) for original musi
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2NHwRObEyab5p4DA6tScNY" width="300" height="80" frameborder="0" allowtransparency="true" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### *Tyler Childers*
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/35LcGAeeMwVeIJrDpB3Gkz" width="300" height="80" frameborder="0" allowtransparency="true" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/35LcGAeeMwVeIJrDpB3Gkz" width="300" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### *Snail Mail*
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0zNWhYDalgisc4uweLIGZJ" width="300" height="80" frameborder="0" allowtransparency="true" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0zNWhYDalgisc4uweLIGZJ" width="300" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### *Keifer*
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5lDtfHPqWN6MG9tFywnW8J?utm_source=generator" width="300" height="80" frameBorder="0" allowtransparency="true" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5lDtfHPqWN6MG9tFywnW8J?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### *Robert Glasper*
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5cM1PvItlR21WUyBnsdMcn?utm_source=generator" width="300" height="80" frameBorder="0"  allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5cM1PvItlR21WUyBnsdMcn?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 # Mark Wade Trio
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5UJBuLbTmWg5XNUv3e5xDW?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
