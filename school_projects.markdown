@@ -164,5 +164,18 @@ After the epoxy cured, it was time for the competition day. Our wing design came
 
 ### Nonlinear Cable Problem MATLAB Script
 #### Fall 2021
-< insert blurb about MECH 450 final project here > 
+For my MECH 450 Advanced Solid Mechanics course, I was tasked with using an iterative solver to determine the displacement of a cable system. 
+![cable](/assets/Images/Research/cable_prob.png)
+
+I used a Newton-Raphson iterative correction factor and some MATLAB code to accomplish the task. I also modeled the cables with nonlinear material properties.
+
+![linear](/assets/Images/Research/linear_cable.png)
+
+![linear](/assets/Images/Research/nonlinear_cable.png)
+
+### Parallel Finite Element Analysis Code - MOOSE
+#### Spring 2022
+[Moose](https://mooseframework.inl.gov/index.html) is a Multi-Physics Object Oriented Simulation Environment, developed and maintained by Idaho National Laboratories. As part of my MECH 495 Finite Element Analysis course final project during the Spring of 2022, I decided to explore the capabilities of MOOSE and see if it could apply to my research. 
+
+![moose](/assets/Images/Research/MOOSE.png)
 
