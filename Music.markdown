@@ -10,7 +10,7 @@ A strong influence in my revitalized dedication to the instrument came during my
 
 ![](/assets/Images/Music/piano_frontview.JPG)  |   ![](/assets/Images/Music/Piano_playing.JPG) 
 :-------------------------:|:-------------------------:
-*A recent Christmas gig in Philadelphia*            |  ''
+*Playing at a recent Christmas gig*            |  *Philadelphia, PA*
 
 # My Music
 Check out my [SoundCloud](https://soundcloud.com/brendostudio) for original music, song ideas/collaborations and more! This cover of Daft Punk's "Within" was one of my favorite recent projects that I produced. 
@@ -28,8 +28,13 @@ Check out my [SoundCloud](https://soundcloud.com/brendostudio) for original musi
 <iframe src="https://open.spotify.com/embed/album/0zNWhYDalgisc4uweLIGZJ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ### *Keifer*
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5lDtfHPqWN6MG9tFywnW8J?utm_source=generator" width="300" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ### *Robert Glasper*
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5cM1PvItlR21WUyBnsdMcn?utm_source=generator" width="300" height="80" frameBorder="0"  allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-# Mark Wade Combo
+# Mark Wade Trio
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5UJBuLbTmWg5XNUv3e5xDW?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+In the Fall of 2021 and the Spring of 2022, I have been playing in the Mark Wade combo at Lehigh University. [Mark Wade](https://www.markwademusicny.com/)is a bassist based in New York City who has garnered worldwide renown for his jazz compositions and just recently released an album called "True Stories". It has been a lot of fun learning from Mark- I am looking forward to our two gigs this spring, one for the school concert and one at BellGate Farms for a fundraiser. 
 
