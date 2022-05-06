@@ -4,10 +4,15 @@ title: Research
 permalink: "/Research/"
 ---
 # About My Research at Lehigh University
-I graduated with my B.S. in Mechanical Engineering from Lehigh in May of 2019. After working for about two years at B. Braun Medical Inc. in Allentown PA, I received an offer to return to Lehigh to work in [Professor Hannah Dailey's Lab](https://engineering.lehigh.edu/faculty/hannah-dailey). Professor Dailey's research focuses on modeling and predicting bone healing, and developing numerical and finite element methods for capturing the mechanical behavior of bone. 
+I graduated with my B.S. in Mechanical Engineering from Lehigh in May of 2019. After working for about two years at B. Braun Medical Inc. in Allentown PA, I received an offer to return to Lehigh to work in [Professor Hannah Dailey's Lab](https://engineering.lehigh.edu/faculty/hannah-dailey). Professor Dailey's research focuses on modeling and predicting bone healing, and developing numerical and finite element methods for capturing the mechanical behavior of bone. In August 2022 I will be graduating with my MS in Mechanical Engineering.
 
 ### Biomechanical Duality of Fracture Healing 
 The first paper that I contributed to in the lab focuses on how the material properties of bone are modeled in healing ovine tibiae. We hypothesized that when using published material assignment laws for ovine tibiae, the elements within the callus region were too stiff. This would artificially increase the rigidity of the limb, making the simulation less accurate. To account for this phenomenon, we proposed a dual-zone material assigment method. This method would treat all the elements in the cortical bone regions of the limb with an existing material assigment law (which is very accurate for cortical bone) and all the elements in the callus region as a constant soft-callus value. 
+
+- Read the [manuscript](https://rdcu.be/cG21C) published in Nature Scientific Reports.
+- Watch my [3-minute pitch video](https://youtu.be/PJFtgjawDZY).
+- Read my [interview](https://engineering.lehigh.edu/news/article/image-based-mechanical-simulations-improve-accuracy-gauging-healing-progress-bone) about the research.
+- Play with the [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Mtl_Opt_Vis/?_inputs_&mod=null&sidebarCollapsed=false&cutoff=0&sidebarItemExpanded=null).
 
 #### General Workflow Overview
 In order to model a physiological bone in a virtual environment, we first need a CT scan of the bone. When we obtain CT raw data from an institution, we process it in [Materialise Mimics](https://www.materialise.com/en/medical/mimics-innovation-suite?gclid=Cj0KCQiAwqCOBhCdARIsAEPyW9mI4ciuwK4pqxVt6gYf65UzKGECpJiaw_xbOpOUDO6i_n-aAH451F4aAjGmEALw_wcB), a medical imaging software. We use Mimics to turn raw 2D CT scans into 3D models.
