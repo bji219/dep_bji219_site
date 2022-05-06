@@ -9,7 +9,7 @@ I graduated with my B.S. in Mechanical Engineering from Lehigh in May of 2019. A
 ### Biomechanical Duality of Fracture Healing 
 The first paper that I contributed to in the lab focuses on how the material properties of bone are modeled in healing ovine tibiae. We hypothesized that when using published material assignment laws for ovine tibiae, the elements within the callus region were too stiff. This would artificially increase the rigidity of the limb, making the simulation less accurate. To account for this phenomenon, we proposed a dual-zone material assigment method. This method would treat all the elements in the cortical bone regions of the limb with an existing material assigment law (which is very accurate for cortical bone) and all the elements in the callus region as a constant soft-callus value. 
 
-- Read the [manuscript](https://rdcu.be/cG21C) published in Nature Scientific Reports.
+- Read the [manuscript](https://rdcu.be/cG21C) published in *Nature Scientific Reports*.
 - Watch my [3-minute pitch video](https://youtu.be/PJFtgjawDZY).
 - Read my [interview](https://engineering.lehigh.edu/news/article/image-based-mechanical-simulations-improve-accuracy-gauging-healing-progress-bone) about the research.
 - Play with the [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Mtl_Opt_Vis/?_inputs_&mod=null&sidebarCollapsed=false&cutoff=0&sidebarItemExpanded=null).
