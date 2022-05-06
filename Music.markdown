@@ -21,6 +21,8 @@ Check out my [SoundCloud](https://soundcloud.com/brendostudio) for original musi
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5UJBuLbTmWg5XNUv3e5xDW?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 In the Fall of 2021 and the Spring of 2022, I played in the Mark Wade combo at Lehigh University. [Mark Wade](https://www.markwademusicny.com/) is a bassist based in New York City who has garnered worldwide renown for his jazz compositions and just recently released an album called "True Stories". It has been a lot of fun learning from Mark- I am looking forward to our two gigs this spring, one for the school concert and one at BellGate Farms for a fundraiser. 
+- ["Triste" by Antonio Carlos Jobim](https://youtu.be/8hugsTx1cgs), Covered by the Mark Wade Combo
+
 
 # Latest Musical Interests
 I hope to periodically update this page with some of the latest artists that I have been listening to or discovered recently!
