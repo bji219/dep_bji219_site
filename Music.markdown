@@ -4,7 +4,7 @@ title: Music
 permalink: "/Music/"
 ---
 # Background
-My mother had a musical background in piano and encouraged my siblings and I to get involved in music- my older sister played the viola throughout middle and high school and my brother and I took piano lessons when we were young. I also played the saxophone in the grades chool band for a few years before heavy involvement in athletics lead me away from the world of music for a spell. During high school and college I would teach myself songs by ear on the piano, and during my sophommore year in college I taught myself how to play the guitar. 
+My mother had a musical background in piano and encouraged my siblings and I to get involved in music- my older sister played the viola throughout middle and high school and my brother and I took piano lessons when we were young. I also played the saxophone in the grade school band for a few years before heavy involvement in athletics lead me away from the world of music for a spell. During high school and college I would teach myself songs by ear on the piano, and during my sophommore year in college I taught myself how to play the guitar. 
 
 A strong influence in my revitalized dedication to the instrument came during my junior year in college when I met my mentor/piano teacher Tim Harisson. I took lessons for two years with Tim and joined the Lehigh Funk Band. After graduating college, I continued to study the aural tradition of Jazz and took a few lessons with pianist Cecelia Coleman before returning to Lehigh for my PhD. Upon returning to school I joined Mark Wade's jazz quartet, where I have played for about a year now. 
 
