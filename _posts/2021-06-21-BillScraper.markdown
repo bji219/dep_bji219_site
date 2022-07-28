@@ -63,8 +63,15 @@ def venmo_send(cont):
         venmo.log_out(access_token)
 ```
 
-*The final result!* 
+### The final result (with a recent example)!
+Command Line Output (using an alias called "bills" to run the script from anywhere):
 
+![](/assets/Images/BillScraper/ExampleRun.png)
+
+The subsequent Venmo request is sent:
+![](/assets/Images/BillScraper/recent_venmo.jpg)
+
+Some Previous Completed Venmo Requests:
 ![](/assets/Images/BillScraper/VenmoPic.jpg)
 
 
