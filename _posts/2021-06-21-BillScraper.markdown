@@ -23,7 +23,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import emoji
 ```
 
-Here is a code snippet showing how I split the cost of the bills by converting the scraped dollar amount strings and divide them by two with my roommate. 
+Here is a code snippet showing how I split the cost of the bills by converting the scraped dollar amount strings and dividing them by two with my roommate. 
 ```python3
 # Splits the cost of the bills
 def split(wifi, curr_elecbill):
