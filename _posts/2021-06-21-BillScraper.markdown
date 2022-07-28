@@ -11,7 +11,7 @@ excerpt: "Making the Boring Things Fun (Like Paying Bills)."
 This script scrapes the account history pages of the websites which manage my utility bills. The script outputs the values of each bill to a google sheets as well as the amount due by each tenant. Since I pay the bills directly from my bank account, the script then creates and sends a Venmo request for half of the cost to my roommate. 
 
 Here are the Python packages that I employed to write this script (yes, even the emoji package 😆):
-```python3
+```python
 from selenium import webdriver
 import datetime
 import gspread
@@ -24,7 +24,7 @@ import emoji
 ```
 
 Here is a code snippet showing how I split the cost of the bills by converting the scraped dollar amount strings and dividing them by two with my roommate. 
-```python3
+```python
 # Splits the cost of the bills
 def split(wifi, curr_elecbill):
     # Contribution calculation
@@ -37,7 +37,7 @@ def split(wifi, curr_elecbill):
 ```
 
 Lastly, I use the Venmo API for Python to send a Venmo request to my roommate to complete the transaction.
-```
+```python
 # Copies contribution amount and auto sends venmo
 def venmo_send(cont):
     # Venmo access token. You will need to complete the 2FA process
@@ -63,7 +63,24 @@ def venmo_send(cont):
         venmo.log_out(access_token)
 ```
 
-The final result! 
+*The final result!* 
 
 ![](/assets/Images/BillScraper/VenmoPic.jpg)
 
+
+### Latest Update
+I recently added an auto-installer for the chromedriver webdriver-file used with selenium. A common error when running this code infrequently is that the chrome browser is frequently updated and the webdriver must have a compatible version. If they are not compatible you need to redownload the latest driver from the site and this is a pain and not smoothly executed. I added this simple function which takes care of the problem:
+```python
+def ai():
+    # Get latest chromedriver zip file for mac, extract into same folder
+    try:
+        version = requests.get('https://chromedriver.storage.googleapis.com/LATEST_RELEASE').text
+        url = 'https://chromedriver.storage.googleapis.com/{0}/{1}'.format(version, 'chromedriver_mac64.zip')
+        r = requests.get(url, allow_redirects=True)
+        open('chromedriver.zip', 'wb').write(r.content)
+        with zipfile.ZipFile("chromedriver.zip", "r") as zip_ref:
+            zip_ref.extractall()
+    except:
+        pass
+ ```
+ 
