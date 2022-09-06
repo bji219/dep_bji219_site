@@ -9,10 +9,16 @@ I graduated with my B.S. in Mechanical Engineering from Lehigh in May of 2019. A
 ### Biomechanical Duality of Fracture Healing 
 The first paper that I contributed to in the lab focuses on how the material properties of bone are modeled in healing ovine tibiae. We hypothesized that when using published material assignment laws for ovine tibiae, the elements within the callus region were too stiff. This would artificially increase the rigidity of the limb, making the simulation less accurate. To account for this phenomenon, we proposed a dual-zone material assigment method. This method would treat all the elements in the cortical bone regions of the limb with an existing material assigment law (which is very accurate for cortical bone) and all the elements in the callus region as a constant soft-callus value. 
 
-- Read the [manuscript](https://rdcu.be/cG21C) published in *Nature Scientific Reports*.
+- Read the [manuscript](https://rdcu.be/cG21C) published in *Nature Scientific Reports* in January 2022.
 - Watch my [3-minute pitch video](https://youtu.be/PJFtgjawDZY).
 - Read my [interview](https://engineering.lehigh.edu/news/article/image-based-mechanical-simulations-improve-accuracy-gauging-healing-progress-bone) about the research.
 - Play with the [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Mtl_Opt_Vis/?_inputs_&mod=null&sidebarCollapsed=false&cutoff=0&sidebarItemExpanded=null).
+
+### Dual Zone Material Assignment for Correcting Partial Volume Effects
+In image-based finite element analysis of bone, partial volume effects (PVEs) arise from image blur at tissue boundaries and as a byproduct of geometric reconstruction and meshing during model creation. In this study, we developed and validated a material assignment approach to mitigate partial volume effects. This method draws on the approach outlined in our previously published manuscript and expands it for use with intact ovine tibiae.
+
+- Read the [manuscript](https://www.tandfonline.com/eprint/9KNXCJJADFY35WCIQPQC/full?target=10.1080/10255842.2022.2119383) published 9/05/2022 in *Computer Methods in Biomechanics and Biomedical Engineering* (CMBBE).
+- Play with the [Shiny App](https://inglis-lu-orthomech.shinyapps.io/Resp_Surf_Opt/)
 
 #### General Workflow Overview
 In order to model a physiological bone in a virtual environment, we first need a CT scan of the bone. When we obtain CT raw data from an institution, we process it in [Materialise Mimics](https://www.materialise.com/en/medical/mimics-innovation-suite?gclid=Cj0KCQiAwqCOBhCdARIsAEPyW9mI4ciuwK4pqxVt6gYf65UzKGECpJiaw_xbOpOUDO6i_n-aAH451F4aAjGmEALw_wcB), a medical imaging software. We use Mimics to turn raw 2D CT scans into 3D models.
