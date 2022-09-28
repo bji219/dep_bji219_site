@@ -1,0 +1,27 @@
+---
+title:  "PiCamera"
+date:   2022-09-28 15:33:33 -0500
+# categories: jekyll update
+permalink: "/PiCamera/"
+# image: assets/Images/PiCamera/PiCam.png
+excerpt: Experimenting with Picamera and HTML
+---
+
+# PiCamera Potential
+I recently came across a [post](https://opensource.com/article/20/1/object-tracking-camera-raspberry-pi) by Leigh Johnson about using open source machine learning code (Tensor Flow) to create a real-time object tracking camera using Raspberry Pi. The camera would use a custom python library and PID-controller concepts to swivel and track the desired object. I was intrigued so I purchased some parts to play around with! 
+
+## Bill of Materials
+- Raspberry Pi 3B
+- [PiCamera Module](https://www.adafruit.com/product/3099?src=raspberrypi&gclid=CjwKCAjw4c-ZBhAEEiwAZ105RQYTson1N-4_wBYCs08tyqZqHpVh7kezYCsMkTOsnwItVv3hctzjPRoCqHMQAvD_BwE)
+- [Pan-Tilt HAT](https://shop.pimoroni.com/products/pan-tilt-hat?variant=22408353287) by Pimoroni
+- Extra-long ribbon cable
+- LED light bar for the HAT
+
+# Object Tracking and "Security Camera" Livestream
+I decided to integrate a few ideas into one. First, I wanted to be able to access the camera over the internet and be able to pan and tilt the camera in any manner using the keyboard or input links on the website. Second, I wanted to integrate the concepts of object tracking and machine learning. Lastly, I would want the feed of the camera to be a livestream accessible to my friends or family who would want to track something (i.e. the family cats).
+
+## Access Raspberry Pi Stream over Internet
+
+## Pan Tilt Control
+
+## ML and Object Tracking
