@@ -1,6 +1,6 @@
 ---
 title:  "PiCamera"
-date:   2022-09-28 15:33:33 -0500
+date:   2022-09-03 15:33:33 -0500
 # categories: jekyll update
 permalink: "/PiCamera/"
 image: assets/Images/PiCamera/PiCam.jpeg
@@ -23,15 +23,89 @@ I recently came across a [post](https://opensource.com/article/20/1/object-track
 I decided to integrate a few ideas into one. First, I wanted to be able to access the camera over the internet and be able to pan and tilt the camera in any manner using the keyboard or input links on the website. Second, I wanted to integrate the concepts of object tracking and machine learning. Lastly, I would want the feed of the camera to be a livestream accessible to my friends or family who would want to track something (i.e. the family cats).
 
 ## Pan Tilt Control
-The first step was assembly the Pan-Tilt HAT and testing the functionality on the raspi. Since I normally use the headless configuration (SSH control) for the raspberry pi I needed to troubleshoot the picamera python module locally by connecting a monitor and keyboard. I used the default python code from the picamera library to make sure the servos were in working order. 
+The first step was assembly the Pan-Tilt HAT and testing the functionality on the raspi. Since I normally use the headless configuration (SSH control) for the raspberry pi I needed to troubleshoot the picamera python module locally by connecting a monitor and keyboard. I used the default python code from the picamera library to make sure the servos were in working order. The commands ".pan()" and ".tilt" are within a while loop that sends the camera on an eliptical path: 
+
+```python
+a = math.sin(t * 2) * 90
+    
+# Cast a to int for v0.0.2
+a = int(a)
+
+pantilthat.pan(a)
+pantilthat.tilt(a)
+```
 
 ## Access Raspberry Pi Stream over Internet
-Next, I wanted to be able to view the output from the picamera without needing an HDMI cable and having to hardwire connect to the raspi every time. To do this, I started by making the stream available on my local internet connection by following a great [tutorial](https://blog.miguelgrinberg.com/post/video-streaming-with-flask) by Miguel Grinberg. This method involves creating a [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework) .jpeg stream of the picamera and making it available on an html webpage. By cobbling together some python code from Miguel and customizing my index.html page, I came up with the following:
+Everything worked as expected out of the box. The next step was to be able to view the output from the picamera without an HDMI cable or direct connection to the raspi. To do this, I created a Flask stream available on my local internet connection by following a great [tutorial](https://blog.miguelgrinberg.com/post/video-streaming-with-flask) by Miguel Grinberg. This method involves using [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)), a .jpeg stream of the picamera and making it available on an html webpage. By cobbling together some python code from Miguel and customizing my index.html page, I came up with the following:
 
 ### Python code
 ```python
+app = Flask(__name__)
 
+@app.route('/')
+def index():
+    """Video streaming home page."""
+    return render_template('index.html')
+
+def gen(camera):
+    """Video streaming generator function."""
+    yield b'--frame\r\n'
+    while True:
+        frame = camera.get_frame()
+        yield b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n--frame\r\n'
+
+@app.route('/video_feed')
+def video_feed():
+    """Video streaming route. Put this in the src attribute of an img tag."""
+    return Response(gen(Camera()),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+# Initialize globals
+panServoAngle = 0
+tiltServoAngle = 0
+increment = 10
+
+# Import increment from index.html
+@app.route("/increment", methods=['POST'])
+def get_inc():
+	global increment
+	increment = int(request.form['increment'])
+	type(increment)
+	print("Current Increment:")
+	print(increment)
+	return render_template('index.html')
+# Receive Instructions over internet for pan/tilt
+@app.route("/<servo>/<angle>")
+def move(servo, angle):
+	global panServoAngle
+	global tiltServoAngle
+	if servo == 'pan':
+		if angle == '+':
+			panServoAngle = panServoAngle + increment
+		else:
+			panServoAngle = panServoAngle - increment
+		pantilthat.pan(panServoAngle)
+		time.sleep(0.005)
+
+	if servo == 'tilt':
+		if angle == '+':
+			tiltServoAngle = tiltServoAngle + increment
+		else:
+			tiltServoAngle = tiltServoAngle - increment
+		pantilthat.tilt(tiltServoAngle)
+		time.sleep(0.005)
+
+	templateData = {
+      	'panServoAngle' : panServoAngle,
+      	'tiltServoAngle' : tiltServoAngle,
+	'increment' : increment
+	}
+	return render_template('index.html', **templateData)
+  # ...
 ```
+(for python packages used/detailed code just message me, it is somewhat lengthy)
+
+I created custom app routings for turning the lights on and off as well as a "patrol" function which makes a horizontal scan of the environment indefinitely until interrupted by the user. The routings in the app are all linked with the basic html layout of the site:
 
 ### index.html page
 ```html
@@ -62,5 +136,10 @@ Next, I wanted to be able to view the output from the picamera without needing a
 ```
 ### The End Result! 
 ![web page](/assets/Images/PiCamera/WebPage.png)
+
+## Opening Livestream to the Internet
+So the stream works over local internet, but what if I wanted to view something while away from home? I started by following a Digital Ocean [tutorial](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04) on integrating Flask apps with uWSGI and Nginx. 
+
+I even bought a domain name with Google Domains. Check out [braspiapp.com](http://braspiapp.com/) and see if it works!
 
 ## ML and Object Tracking
