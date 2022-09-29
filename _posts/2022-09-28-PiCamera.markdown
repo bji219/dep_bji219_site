@@ -138,8 +138,10 @@ I created custom app routings for turning the lights on and off as well as a "pa
 ![web page](/assets/Images/PiCamera/WebPage.png)
 
 ## Opening Livestream to the Internet
-So the stream works over local internet, but what if I wanted to view something while away from home? I started by following a Digital Ocean [tutorial](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04) on integrating Flask apps with uWSGI and Nginx. 
-
-I even bought a domain name with Google Domains. Check out [braspiapp.com](http://braspiapp.com/) and see if it works!
+So the stream works over local internet, but what if I wanted to view something while away from home? I started by following a Digital Ocean [tutorial](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04) on integrating Flask apps with uWSGI and Nginx. I set up everything to communicate correctly, and the live stream does show up correctly, however the Flask/Nginx/uWSGI combo is probably too light-weight for streaming. I tried sending some commands and the server crashes with an "out of resources" error!
+```
+picamera.exc.PiCameraMMALError: Failed to enable connection: Out of resources
+```
+I attempted to change the resolution but the issues persisted (dropped frames, very laggy stream and low resources). It's unfortunate that this first attempt didn't work - I even bought a domain name with Google Domains (lol). Check out [braspiapp.com](http://braspiapp.com/)!
 
 ## ML and Object Tracking
