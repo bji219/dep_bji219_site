@@ -145,3 +145,4 @@ picamera.exc.PiCameraMMALError: Failed to enable connection: Out of resources
 I attempted to change the resolution but the issues persisted (dropped frames, very laggy stream and low resources). It's unfortunate that this first attempt didn't work - I even bought a domain name with Google Domains (lol). Check out [braspiapp.com](http://braspiapp.com/)!
 
 ## ML and Object Tracking
+To tackle the object tracking component of this build, I approached the problem from multiple angles. First I got the hand of controlling the pantilt Hat and streaming on my local internet as well as learning some basica HTML. Now, the task ahead is to experiment with some open-source existing object recognition software that I can play around with before implementing into my build. This portion of the project is still in progress, but check back for updates soon! 
