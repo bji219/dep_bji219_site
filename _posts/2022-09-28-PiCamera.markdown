@@ -145,4 +145,26 @@ picamera.exc.PiCameraMMALError: Failed to enable connection: Out of resources
 I attempted to change the resolution but the issues persisted (dropped frames, very laggy stream and low resources). It's unfortunate that this first attempt didn't work - I even bought a domain name with Google Domains (lol). Check out [braspiapp.com](http://braspiapp.com/)!
 
 ## ML and Object Tracking
-To tackle the object tracking component of this build, I approached the problem from multiple angles. First I got the hand of controlling the pantilt Hat and streaming on my local internet as well as learning some basica HTML. Now, the task ahead is to experiment with some open-source existing object recognition software that I can play around with before implementing into my build. This portion of the project is still in progress, but check back for updates soon! 
+To tackle the object tracking component of this build, I approached the problem from multiple angles. First I got the hand of controlling the pantilt Hat and streaming on my local internet as well as learning some basica HTML. Now, the task ahead is to experiment with some open-source existing object recognition software that I can play around with before implementing into my build.
+
+### TensorFlow
+I was pretty new to Machine Learning, having touched on it only briefly during my research while collaborating with an undergrad student. I was inspired by this post from [Leigh Johnson](https://opensource.com/article/20/1/object-tracking-camera-raspberry-pi) which was essentially a step-by-step walkthrough on using TensorFlow with raspberry pi. After installing all the required software onto my pi (with some substitutions since this was an old article), it was time to test the object detection from Leigh's program.
+
+By running 
+```python
+rpi-deep-pantilt detect vase
+```
+or 
+```python
+rpi-deep-pantilt detect apple
+```
+for example, the results were great. The pi classified the objects in-frame and added a bounding box with the object confidence level. The simple PID controller program kept the requested object centered.
+
+![apple](/assets/Images/PiCamera/apple.jpg)
+
+![vase](/assets/Images/PiCamera/vase.jpg)
+
+While it does work "out of the box", the software is pretty buggy - the PID will sometimes get stuck with the camera looking straight up or down for example. I also made some edits in the python package to flip the camera horizontally and vertically. I will continue to tweak the code so it performs optimally for my needs. 
+
+## Integration
+Now that each individual module of my plan was working, it was time to bring them together to work in concert. I first attempted to add a "tracking" function to my site. Unfortunately, I have been running into the same "out of resources" error with my PiCamera. This might mean I should start from scratch, and use the camera only for tracking with an interrupt function for manual control, but that remains to be seen. I will continue to add updates as I work out the kinks!
