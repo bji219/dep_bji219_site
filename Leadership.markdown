@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: Leadership Experience
+title: Leadership
 permalink: "/Leadership/"
 ---
 
@@ -11,4 +11,4 @@ As a graduate student in Lehigh's Dailey Lab, I was often tasked with leading pr
 While I was mainly supported by grant funding during my time in graduate school, I also taught as a TA for a semester in a sophomore Mechanics class. I graded weekly quizes for all 50+ students and ran a weekly office hours homework help session to tutor struggling or inquisitive students. I maintained the class Coursesite (similar to Moodle or Coursicle) grade page and uploaded quiz and homework grades regularly in collaboration with the teaching professor.
 
 ## Extra Credit Lab Design and Supervision
-My advisor Hannah Dailey and I on designed and ran an undergraduate [extra credit lab](#bone-tensile-testing-lab) for the same above-mentioned Mechanics class. I created a simple image analysis program to supplement the benchtop mechanical testing. I also directly supervised the students who participated in the lab and ran the Zwick/collected the data for distribution after the lab was complete. Finally, my professor and I co-graded the assignments. 
+My advisor Hannah Dailey and I on designed and ran an undergraduate [[ extra credit lab | research#bone-tensile-testing-lab ]] [extra credit lab](https://bji219.github.io/Research#bone-tensile-testing-lab) for the same above-mentioned Mechanics class. I created a simple image analysis program to supplement the benchtop mechanical testing. I also directly supervised the students who participated in the lab and ran the Zwick/collected the data for distribution after the lab was complete. Finally, my professor and I co-graded the assignments. 
