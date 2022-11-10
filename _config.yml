@@ -55,7 +55,6 @@ defaults:
 header_pages:
   - about.markdown
   - research.markdown
-  - Leadership.markdown
   - school_projects.markdown
   - Music.markdown
 
