@@ -13,7 +13,7 @@ A strong influence in my revitalized dedication to the instrument came during my
 *Playing at a recent Christmas gig*            |  *Philadelphia, PA*
 
 # My Music
-Check out my [SoundCloud](https://soundcloud.com/brendostudio) for original music, song ideas/collaborations and more! This cover of Daft Punk's "Within" was one of my favorite recent projects that I produced. 
+Check out my [Band Camp](https://brendaninglis.bandcamp.com/) and [SoundCloud](https://soundcloud.com/brendostudio) for original music, song ideas/collaborations and more! This cover of Daft Punk's "Within" was one of my favorite recent projects that I produced. 
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1002011110&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/brendostudio" title="Brendan Inglis" target="_blank" style="color: #cccccc; text-decoration: none;">Brendan Inglis</a> · <a href="https://soundcloud.com/brendostudio/within-daft-punk-cover" title="Within (Daft Punk Cover)" target="_blank" style="color: #cccccc; text-decoration: none;">Within (Daft Punk Cover)</a></div>
 
@@ -24,8 +24,20 @@ In the Fall of 2021 and the Spring of 2022, I played in the Mark Wade combo at L
 - ["Triste" by Antonio Carlos Jobim](https://youtu.be/8hugsTx1cgs), Covered by the Mark Wade Combo
 
 
-# Latest Musical Interests
+# Musical Interests
 I hope to periodically update this page with some of the latest artists that I have been listening to or discovered recently!
+
+### *Zach Bryan*
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3WMj8moIAXJhHsyLaqIIHI?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+### *Lizzy McAlpine*
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/46BHP7nFOrGQPLW8mCxzZr?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+### *Keifer*
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5lDtfHPqWN6MG9tFywnW8J?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+### *Vince Guaraldi*
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0s2h4GBGC4rcdSQhJX80Mv?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### *Kenny Hoopla*
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2NHwRObEyab5p4DA6tScNY" width="100%" height="80" frameborder="0" allowtransparency="true" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -36,11 +48,5 @@ I hope to periodically update this page with some of the latest artists that I h
 ### *Snail Mail*
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0zNWhYDalgisc4uweLIGZJ" width="100%" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-### *Keifer*
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5lDtfHPqWN6MG9tFywnW8J?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
 ### *Robert Glasper*
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5cM1PvItlR21WUyBnsdMcn?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-
-
