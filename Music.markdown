@@ -13,6 +13,8 @@ A strong influence in my revitalized dedication to the instrument came during my
 *Playing at a recent Christmas gig*            |  *Philadelphia, PA*
 
 # My Music
+<iframe scrolling="no" style="border: 0;width: 100%;height: 50px;" src="https://bandcamp.com/band_follow_button_deluxe/1438047971"></iframe>
+
 Check out my [Band Camp](https://brendaninglis.bandcamp.com/) and [SoundCloud](https://soundcloud.com/brendostudio) for original music, song ideas/collaborations and more! This cover of Daft Punk's "Within" was one of my favorite recent projects that I produced. 
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1002011110&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/brendostudio" title="Brendan Inglis" target="_blank" style="color: #cccccc; text-decoration: none;">Brendan Inglis</a> · <a href="https://soundcloud.com/brendostudio/within-daft-punk-cover" title="Within (Daft Punk Cover)" target="_blank" style="color: #cccccc; text-decoration: none;">Within (Daft Punk Cover)</a></div>
