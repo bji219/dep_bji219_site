@@ -37,6 +37,7 @@ theme: dinky
 show_excerpts: true
 plugins:
   - jekyll-feed
+  - jekyll-theme-dinky
   #- jekyll-theme-minimal
 
 # Create default "Front Matter" 
