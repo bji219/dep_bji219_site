@@ -32,13 +32,11 @@ linkedin_username: brendan-inglis
 
 # Build settings
 #theme: minima # <- original theme. Try figs, add headshot
-theme: dinky
-#remote_theme: daattali/beautiful-jekyll
+remote_theme: pages-themes/dinky@v0.2.0
 show_excerpts: true
 plugins:
   - jekyll-feed
-  - jekyll-theme-dinky
-  #- jekyll-theme-minimal
+  - jekyll-remote-theme
 
 # Create default "Front Matter" 
 defaults:
