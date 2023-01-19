@@ -8,3 +8,5 @@ excerpt: Other GitHub Repositories
 ---
 
 # [STL to CSV Code](https://bji219.github.io/STL_to_CSV/)
+
+# [Mindful Notification Generator](https://bji219.github.io/Mindful_Notis/)
