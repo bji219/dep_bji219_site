@@ -7,7 +7,7 @@ image: assets/Images/Git/GitHub-Mark.png
 excerpt: Other GitHub Repositories
 ---
 # 3-30-2023
-# [Smart Assistant](https://github.com/bji219/Smart_Assistant)
+# [Smart Assistant](https://bji219.github.io/Smart_Assistant/)
 
 # 1-18-2023
 # [Mindful Notification Generator](https://bji219.github.io/Mindful_Notis/)
