@@ -6,7 +6,7 @@ permalink: "/GitRepos/"
 image: assets/Images/Git/GitHub-Mark.png
 excerpt: Other GitHub Repositories
 ---
-# 1-6-2023
+# 3-30-2023
 # [Smart Assistant](https://github.com/bji219/Smart_Assistant)
 
 # 1-18-2023
