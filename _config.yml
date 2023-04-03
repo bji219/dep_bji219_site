@@ -56,6 +56,7 @@ defaults:
 # Order of home-page Pages
 header_pages:
   - about.markdown
+  - Resume.markdown
   - research.markdown
   - school_projects.markdown
   - Music.markdown
