@@ -7,8 +7,7 @@ permalink: /about/
 ![Headshot](/assets/Images/prof_pic_mountain.png)
 
 ## Resume
-Check out [my resume](https://bji219.github.io/resume/), created with [rxresu.me](https://rxresu.me/). 
-[Resume link](https://docs.google.com/gview?url=https://github.com/bji219/resume/raw/main/Inglis-Programming-Resume-2023.pdf&embed=true)
+Check out [my resume](https://bji219.github.io/resume/), created with [rxresu.me](https://rxresu.me/).
 
 ## Bio
 My name is Brendan Inglis, and I am a Mechanical Engineering PhD student at Lehigh University. After graduating from Lehigh with a BS in Mechanical Engineering in 2019, my interest in biomechanics and applications of mechanical engineering to biotechnology led me to B. Braun Medical Inc. in Allentown PA where I worked for 2 years. During this time, I received an offer to return to school and research bone biomechanics with [Professor Hannah Dailey's](https://engineering.lehigh.edu/faculty/hannah-dailey) lab. My research areas of interest include Finite Element Analysis, biomedical image processing and analysis, and large-scale simulations run on Lehigh's [High Performance Computing Center (HPC)](https://lts.lehigh.edu/services/high-performance-computing-hpc-research-computing).
