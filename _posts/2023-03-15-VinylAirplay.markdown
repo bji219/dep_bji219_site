@@ -1,6 +1,6 @@
 ---
 title:  "Wireless Vinyl"
-date:   2023-30-03 15:33:33 -0500
+date:   2021-03-30 15:33:33 -0500
 permalink: "/WirelessVinyl/"
 excerpt: "Hacking a low budget vinyl record player"
 image: assets/Images/WirelessVinyl/recplayer.jpg
