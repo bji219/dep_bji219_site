@@ -2,18 +2,20 @@
 layout: default
 ---
 
-<div class="home" style="max-width: 800px;">
+<div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
+
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
+
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
@@ -24,7 +26,7 @@ layout: default
       {%- for post in posts -%}
       <li>
       
-        <div style="display: flex; align-items: center;">
+        <div style="display:table-cell">
         <span
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -42,10 +44,13 @@ layout: default
         {%- if post.image -%}
           <img src="{{ post.image }}" alt="" width="100" height="100" style="position: relative; top: 50%; transform: translateY(-50%); margin-left: 100%; border:1px solid black; border-radius:50%" /> <!-- <a class="post-thumbnail" href="{{ post.url | relative_url }}" </a>-->
         {%- endif -%}
-     
+
+       
         </div>
+
      
       </li>  
+
       {%- endfor -%}
     </ul>
 
@@ -66,5 +71,7 @@ layout: default
         </ul>
       </div>
     {%- endif %}
+
   {%- endif -%}
+  
 </div>
