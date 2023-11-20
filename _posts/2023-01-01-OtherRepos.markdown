@@ -7,6 +7,9 @@ image: assets/Images/Git/GitHub-Mark.png
 excerpt: Other GitHub Repositories
 ---
 # The purpose of this page is to house some links to my more recent github repositories without creating an entire new project page on my website!
+# 8-11-2023
+# [Plant Dashboard](https://github.com/bji219/Plant-Dashboard/)
+
 # 3-30-2023
 # [Smart Assistant](https://bji219.github.io/Smart_Assistant/)
 
