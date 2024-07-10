@@ -31,13 +31,15 @@ github_username:  bji219
 linkedin_username: brendan-inglis
 
 # Build settings
-theme: minima # <- original theme. Try figs, add headshot
+# theme: minima # <- original theme. Try figs, add headshot
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 # theme: jekyll-theme-dinky
 # remote_theme: pages-themes/dinky@v0.2.0
 show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Create default "Front Matter" 
 defaults:
