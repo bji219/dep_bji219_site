@@ -1,7 +1,7 @@
 ---
 layout: "page"
-title: School Projects
-permalink: "/SchoolProjects/"
+title: Lehigh Projects
+permalink: "/LehighProjects/"
 ---
 
 # Projects at Lehigh University
